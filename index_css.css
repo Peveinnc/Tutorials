@@ -1,0 +1,143 @@
+/* global setting */
+body{
+    font-size: 20px;
+    line-height:1.5;
+    background-color:#c2c0b8;
+    padding:0;
+    margin:0;
+    font:Arial;
+    height:100vh;
+}
+.container{
+    margin:auto;
+    width:80%;
+    text-align: center;
+    overflow:hidden;
+}
+
+a:active{
+    color:red;
+}
+
+ul{
+    margin:0;
+    padding:0;
+}
+/*------Header code------*/
+header{
+    background-color:#041b04;
+    min-height: 100px;
+    overflow: hidden;
+    color:white;
+    border-bottom: solid 2px red;
+}
+header .logo{
+    color:red;
+    padding-right: 30px;
+}
+header h1{
+    float:left;
+}
+
+nav li{
+    list-style: none;
+    padding:10px 20px;
+    display:inline;
+    
+    
+}
+header a{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    color:white;
+   
+    
+}
+header a:active{
+    color:yellowgreen;
+    
+}
+
+nav{
+    float:right;
+    margin-top:40px;
+}
+
+
+/*------section standout code------*/
+.standout{
+    background-image: url('./images/programming.jpg');
+    overflow: hidden;
+    min-height:300px;
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color:white;
+
+}
+.standout h1{
+    font-size: 40px;;
+}
+.standout p{
+    font-size: 25px;;
+}
+/*------section projects code------*/
+
+.projects img{
+    height:100px;
+    width:100px;
+}
+.projects img:hover{
+    height:150px;
+    width:150px;
+}
+
+.projects .prj{
+    float:left;
+    width:20%;
+}
+.about_me .roundImg{
+    height:50px;
+    width:50px;
+    border-radius: 10px;
+}
+.about_me h3{
+    margin-top: 2px;
+    margin-bottom: 2px;;
+    color:blue;
+}
+.about_me li{
+    list-style: none;
+    padding:2px;
+    list-style-image: url('./images/list_img.jpg');
+}
+.about_me .additional{
+    color: red;
+    
+}
+
+.about_me p{
+    padding:0;
+    margin:0;
+}
+/*footer section*/
+
+.footer{
+    background-color: #041b04;
+    color:white;
+    overflow:hidden;
+    text-align: center;
+    padding: 10px;
+
+}
+.footer .contact_me{
+    padding-bottom: 5px;
+}
+.footer img{
+    border-radius: 10px;  
+}
+.footer p{
+    margin-top: 5px;
+}
+
